@@ -1,4 +1,8 @@
 package org.example.dao;
 
-public class DaoImpl {
+public class DaoImpl implements IDao{
+    @Override
+    public double getValue() {
+        return 100;
+    }
 }
